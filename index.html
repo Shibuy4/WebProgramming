@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Campus Notices</title>
+</head>
+<body>
+
+    <div class="school-header">
+        <img src="logo.jpg" alt="Campus Logo" class="logo">
+        <h1>Don Mariano Marcos Memorial State University</h1>
+    </div>
+
+    <h2>Campus Notices</h2>
+
+    <nav>
+        <a href="notices.html">Read Notices</a>
+    </nav>
+
+    <div class="bg1">
+        <p id="sentence1">
+            The College of <strong>Computer Science</strong>
+        </p>
+    </div>
+
+    <h3>Faculty Members</h3>
+
+    <ol>
+        <li>Haydee Linson</li>
+        <li>Ferman Mendoza</li>
+        <li>Charlie Marzan</li>
+        <li>Belinda Celestial</li>
+        <li>Joe Anthony Milan</li>
+    </ol>
+
+    <ul>
+        <li>Haydee Linson</li>
+        <li>Ferman Mendoza</li>
+        <li>Charlie Marzan</li>
+        <li>Belinda Celestial</li>
+        <li>Joe Anthony Milan</li>
+    </ul>
+
+    <img src="image.jpg" alt="Campus Image" width="500" height="300">
+
+    <form action="/api/notices" method="post">
+
+        <label for="title">Title</label><br>
+        <input id="title" name="title" type="text" required>
+        <br><br>
+
+        <label for="msg">Message</label><br>
+        <textarea id="msg" name="message"></textarea>
+        <br><br>
+
+        <button type="submit" class="btn-primary">
+            Post Notice
+        </button>
+
+    </form>
+
+</body>
+</html>

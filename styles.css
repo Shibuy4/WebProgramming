@@ -1,0 +1,75 @@
+p {
+    padding: 10px;
+}
+
+nav {
+    margin: 0;
+}
+
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: gray;
+    border-radius: 10px;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+body {
+    background-color: #f1f7f2;
+    border: 5px solid #285c3b;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.school-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.school-header h2 {
+    color: #285c3b;
+}
+
+.bg1 {
+    background-color: #dcefe0;
+}
+
+h1 {
+    text-align: left;
+    color: green;
+}
+
+h2 {
+    color: black;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 0;
+}
